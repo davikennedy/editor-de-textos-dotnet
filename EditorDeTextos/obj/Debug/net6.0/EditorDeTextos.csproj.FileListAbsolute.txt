@@ -1,0 +1,15 @@
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\bin\Debug\net6.0\EditorDeTextos.exe
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\bin\Debug\net6.0\EditorDeTextos.deps.json
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\bin\Debug\net6.0\EditorDeTextos.runtimeconfig.json
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\bin\Debug\net6.0\EditorDeTextos.dll
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\bin\Debug\net6.0\EditorDeTextos.pdb
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\obj\Debug\net6.0\EditorDeTextos.csproj.AssemblyReference.cache
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\obj\Debug\net6.0\EditorDeTextos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\obj\Debug\net6.0\EditorDeTextos.AssemblyInfoInputs.cache
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\obj\Debug\net6.0\EditorDeTextos.AssemblyInfo.cs
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\obj\Debug\net6.0\EditorDeTextos.csproj.CoreCompileInputs.cache
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\obj\Debug\net6.0\EditorDeTextos.dll
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\obj\Debug\net6.0\refint\EditorDeTextos.dll
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\obj\Debug\net6.0\EditorDeTextos.pdb
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\obj\Debug\net6.0\EditorDeTextos.genruntimeconfig.cache
+C:\Users\davi_\OneDrive\Cursos\.Net\editor-de-textos-dotnet\EditorDeTextos\obj\Debug\net6.0\ref\EditorDeTextos.dll
