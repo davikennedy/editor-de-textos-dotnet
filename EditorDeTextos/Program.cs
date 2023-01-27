@@ -1,6 +1,4 @@
-﻿using System.IO;
-
-namespace EditorDeTexto
+﻿namespace EditorDeTexto
 {
     class Program
     {
@@ -12,7 +10,7 @@ namespace EditorDeTexto
         static void Menu()
         {
             Console.Clear();
-            
+
             Console.WriteLine("1 - Abrir arquivo");
             Console.WriteLine("2 - Criar novo arquivo");
             Console.WriteLine("0 - Sair");
@@ -22,21 +20,36 @@ namespace EditorDeTexto
 
             switch (opcao)
             {
-                case 0: 
-                    System.Environment.Exit(0); 
+                case 0:
+                    System.Environment.Exit(0);
                     break;
-                case 1: 
+                case 1:
                     Abrir();
                     break;
-                case 2: 
+                case 2:
                     Editar();
                     break;
-                default: Menu(); 
+                default:
+                    Menu();
                     break;
             }
         }
 
-        static void Abrir() { }
+        static void Abrir()
+        {
+            Console.Clear();
+            Console.WriteLine("Qual o caminho do arquivo?");
+            string path = Console.ReadLine();
+
+            using (var file = new StreamReader(path))
+            {
+                Console.WriteLine(file.ReadToEnd());
+            }
+
+            Console.WriteLine("");
+            Console.ReadKey();
+            Menu();
+        }
 
         static void Editar()
         {
@@ -48,7 +61,7 @@ namespace EditorDeTexto
             do
             {
                 text += Console.ReadLine();
-                text += Environment.NewLine;
+                text += Console.ReadLine();
             }
             while (Console.ReadKey().Key != ConsoleKey.Escape);
 
@@ -58,10 +71,10 @@ namespace EditorDeTexto
         static void Salvar(string text)
         {
             Console.Clear();
-            Console.Write("Qual caminho para salvar o arquivo? ");
+            Console.WriteLine("Qual caminho para salvar o arquivo?");
             var path = Console.ReadLine();
 
-            using(var file = new StreamWriter(path))
+            using (var file = new StreamWriter(path))
             {
                 file.WriteLine(text);
             }
